@@ -1,17 +1,20 @@
 <template>
   <div class="home">
-    <GetCurrency msg="Welcome to Your Vue.js App"/>
+    <!-- <Calculator name='about'/> -->
+    <GetCurrency name='/' msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import GetCurrency from '@/components/getCur.vue'
+// import Calculator from '@/views/About.vue'
 
 export default {
   name: 'Home',
   components: {
-    GetCurrency
+    GetCurrency,
+    // Calculator
   }
 }
 </script>

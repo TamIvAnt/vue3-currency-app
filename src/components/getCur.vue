@@ -1,4 +1,5 @@
 <template>
+<div class="get" name='/'>
  <h1 class="text">Курсы валют 2021</h1>
 
   <div class="container" v-if="dataCur.Valute">   
@@ -141,6 +142,7 @@
     </h2>
   </div>
 
+</div>
 </template>
 
 <script>
@@ -175,6 +177,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="stylus">
+  .get
+    margin-top 100px
 .valute_container
   display flex
   justify-content space-between

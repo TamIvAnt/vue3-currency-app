@@ -9,10 +9,10 @@
                 <nav class="header_menu" :class="{active: isActive}">
                     <ul class="header_list">
                         <li >
-                            <router-link @click="isActive = false" class="header_item" to="/">Currency</router-link> 
+                            <a @click="isActive = false" class="header_item" href='#/'>Currency</a> 
                         </li>
                         <li >
-                            <router-link @click="isActive = false" class="header_item" to="/about">Calculator</router-link>
+                            <a @click="isActive = false" class="header_item" href='#about'>Calculator</a>
                         </li>
                     </ul>
                 </nav>
